@@ -1,0 +1,1246 @@
+INFO    2016-03-15 23:50:14,667 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@694f9431: startup date [Tue Mar 15 23:50:14 IST 2016]; root of context hierarchy
+INFO    2016-03-15 23:50:14,908 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-15 23:50:16,274 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-15 23:53:20,034 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@694f9431: startup date [Tue Mar 15 23:53:20 IST 2016]; root of context hierarchy
+INFO    2016-03-15 23:53:20,092 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-15 23:53:20,412 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+WARN    2016-03-15 23:53:20,416 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.maneesh.spring.autowiring] for bean with name 'byNameAddress' defined in class path resource [application-context.xml]; nested exception is java.lang.ClassNotFoundException: com.maneesh.spring.autowiring
+INFO    2016-03-15 23:53:50,557 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@694f9431: startup date [Tue Mar 15 23:53:50 IST 2016]; root of context hierarchy
+INFO    2016-03-15 23:53:50,615 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-15 23:53:50,907 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-15 23:55:06,730 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@694f9431: startup date [Tue Mar 15 23:55:06 IST 2016]; root of context hierarchy
+INFO    2016-03-15 23:55:06,785 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-15 23:55:07,079 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+WARN    2016-03-15 23:55:07,084 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'byName' defined in class path resource [application-context.xml]: Initialization of bean failed; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert property value of type [com.maneesh.spring.Address] to required type [com.maneesh.spring.autowiring.ByNameAddress] for property 'address'; nested exception is java.lang.IllegalStateException: Cannot convert value of type [com.maneesh.spring.Address] to required type [com.maneesh.spring.autowiring.ByNameAddress] for property 'address': no matching editors or conversion strategy found
+INFO    2016-03-15 23:55:47,252 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@694f9431: startup date [Tue Mar 15 23:55:47 IST 2016]; root of context hierarchy
+INFO    2016-03-15 23:55:47,304 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-15 23:55:47,590 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+WARN    2016-03-15 23:55:47,595 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'byName' defined in class path resource [application-context.xml]: Initialization of bean failed; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert property value of type [com.maneesh.spring.Address] to required type [com.maneesh.spring.autowiring.ByNameAddress] for property 'address'; nested exception is java.lang.IllegalStateException: Cannot convert value of type [com.maneesh.spring.Address] to required type [com.maneesh.spring.autowiring.ByNameAddress] for property 'address': no matching editors or conversion strategy found
+INFO    2016-03-15 23:57:02,043 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@694f9431: startup date [Tue Mar 15 23:57:02 IST 2016]; root of context hierarchy
+INFO    2016-03-15 23:57:02,096 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-15 23:57:02,377 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-16 00:02:27,491 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@694f9431: startup date [Wed Mar 16 00:02:27 IST 2016]; root of context hierarchy
+INFO    2016-03-16 00:02:27,565 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-16 00:02:27,925 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-16 00:02:46,759 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@694f9431: startup date [Wed Mar 16 00:02:46 IST 2016]; root of context hierarchy
+INFO    2016-03-16 00:02:46,819 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-16 00:02:47,107 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-16 00:06:32,050 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@694f9431: startup date [Wed Mar 16 00:06:32 IST 2016]; root of context hierarchy
+INFO    2016-03-16 00:06:32,105 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-16 00:06:32,409 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-16 00:12:50,265 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@694f9431: startup date [Wed Mar 16 00:12:50 IST 2016]; root of context hierarchy
+INFO    2016-03-16 00:12:50,305 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-16 00:12:50,586 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+WARN    2016-03-16 00:12:50,636 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'byConstructor' defined in class path resource [application-context.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'id' of bean class [com.maneesh.spring.autowiring.ByConstructor]: Bean property 'id' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+INFO    2016-03-16 00:14:38,188 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@694f9431: startup date [Wed Mar 16 00:14:38 IST 2016]; root of context hierarchy
+INFO    2016-03-16 00:14:38,228 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-16 00:14:38,518 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 00:29:09,260 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO    2016-03-18 00:29:50,093 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 00:31:44,789 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 00:34:49,513 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@21bcffb5: startup date [Fri Mar 18 00:34:49 IST 2016]; root of context hierarchy
+INFO    2016-03-18 00:34:49,584 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 00:34:50,034 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+WARN    2016-03-18 00:34:50,058 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mailSender' defined in class path resource [application-context.xml]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: javax/mail/MessagingException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1093)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1038)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:504)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.maneesh.spring.mail.MailTest.main(MailTest.java:8)
+Caused by: java.lang.NoClassDefFoundError: javax/mail/MessagingException
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructor0(Class.java:3075)
+	at java.lang.Class.getDeclaredConstructor(Class.java:2178)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:80)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1086)
+	... 13 more
+Caused by: java.lang.ClassNotFoundException: javax.mail.MessagingException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 19 more
+INFO    2016-03-18 00:36:18,114 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@21bcffb5: startup date [Fri Mar 18 00:36:18 IST 2016]; root of context hierarchy
+INFO    2016-03-18 00:36:18,164 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 00:36:18,568 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+WARN    2016-03-18 00:36:18,588 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mailSender' defined in class path resource [application-context.xml]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: javax/mail/MessagingException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1093)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1038)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:504)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.maneesh.spring.mail.MailTest.main(MailTest.java:8)
+Caused by: java.lang.NoClassDefFoundError: javax/mail/MessagingException
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructor0(Class.java:3075)
+	at java.lang.Class.getDeclaredConstructor(Class.java:2178)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:80)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1086)
+	... 13 more
+Caused by: java.lang.ClassNotFoundException: javax.mail.MessagingException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 19 more
+INFO    2016-03-18 00:39:26,195 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO    2016-03-18 00:41:47,427 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO    2016-03-18 00:42:14,704 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 00:45:28,566 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 00:46:27,287 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 00:46:48,204 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 00:47:43,697 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 00:49:24,226 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@21bcffb5: startup date [Fri Mar 18 00:49:24 IST 2016]; root of context hierarchy
+INFO    2016-03-18 00:49:24,275 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 00:49:24,677 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+WARN    2016-03-18 00:49:24,697 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mailSender' defined in class path resource [application-context.xml]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: javax/mail/MessagingException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1093)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1038)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:504)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.maneesh.spring.mail.MailTest.main(MailTest.java:14)
+Caused by: java.lang.NoClassDefFoundError: javax/mail/MessagingException
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructor0(Class.java:3075)
+	at java.lang.Class.getDeclaredConstructor(Class.java:2178)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:80)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1086)
+	... 13 more
+Caused by: java.lang.ClassNotFoundException: javax.mail.MessagingException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 19 more
+INFO    2016-03-18 00:52:40,132 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7a5d012c: startup date [Fri Mar 18 00:52:40 IST 2016]; root of context hierarchy
+INFO    2016-03-18 00:52:40,182 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 00:52:40,551 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 00:53:38,002 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7a5d012c: startup date [Fri Mar 18 00:53:37 IST 2016]; root of context hierarchy
+INFO    2016-03-18 00:53:38,050 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 00:53:38,406 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 01:01:31,675 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 01:01:31 IST 2016]; root of context hierarchy
+INFO    2016-03-18 01:01:31,717 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 01:01:32,141 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 11:14:53,448 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 11:14:53 IST 2016]; root of context hierarchy
+INFO    2016-03-18 11:14:53,853 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 11:14:55,556 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 12:25:32,959 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 12:25:32 IST 2016]; root of context hierarchy
+INFO    2016-03-18 12:25:33,000 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 12:25:33,450 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 12:57:44,554 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 12:57:44 IST 2016]; root of context hierarchy
+INFO    2016-03-18 12:57:44,597 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 12:57:45,322 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 13:02:25,021 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 13:02:25 IST 2016]; root of context hierarchy
+INFO    2016-03-18 13:02:25,063 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 13:02:25,586 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 13:10:39,153 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 13:10:39 IST 2016]; root of context hierarchy
+INFO    2016-03-18 13:10:39,196 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 13:10:39,561 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 13:19:27,978 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 13:19:27 IST 2016]; root of context hierarchy
+INFO    2016-03-18 13:19:28,109 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 13:19:28,489 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 13:21:50,120 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 13:21:50 IST 2016]; root of context hierarchy
+INFO    2016-03-18 13:21:50,169 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 13:21:50,535 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 13:22:43,553 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 13:22:43 IST 2016]; root of context hierarchy
+INFO    2016-03-18 13:22:43,600 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 13:22:44,126 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 13:24:09,091 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 13:24:09 IST 2016]; root of context hierarchy
+INFO    2016-03-18 13:24:09,133 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 13:24:09,592 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 13:24:32,367 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 13:24:32 IST 2016]; root of context hierarchy
+INFO    2016-03-18 13:24:32,407 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 13:24:32,789 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 13:28:47,922 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 13:28:47 IST 2016]; root of context hierarchy
+INFO    2016-03-18 13:28:47,966 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 13:28:48,387 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 13:30:01,181 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 13:30:01 IST 2016]; root of context hierarchy
+INFO    2016-03-18 13:30:01,224 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 13:30:01,605 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 13:30:47,332 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 13:30:47 IST 2016]; root of context hierarchy
+INFO    2016-03-18 13:30:47,374 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 13:30:47,747 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 13:43:59,639 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 13:43:59 IST 2016]; root of context hierarchy
+INFO    2016-03-18 13:43:59,689 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 13:44:00,094 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 13:46:42,652 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 13:46:42 IST 2016]; root of context hierarchy
+INFO    2016-03-18 13:46:42,696 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 13:46:43,058 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 13:50:48,072 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 13:50:48 IST 2016]; root of context hierarchy
+INFO    2016-03-18 13:50:48,115 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 13:50:48,468 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 13:52:57,760 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 13:52:57 IST 2016]; root of context hierarchy
+INFO    2016-03-18 13:52:57,804 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 13:52:58,170 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 13:54:07,987 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 13:54:07 IST 2016]; root of context hierarchy
+INFO    2016-03-18 13:54:08,053 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 13:54:08,534 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 13:54:53,839 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 13:54:53 IST 2016]; root of context hierarchy
+INFO    2016-03-18 13:54:53,881 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 13:54:54,240 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 13:55:39,797 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 13:55:39 IST 2016]; root of context hierarchy
+INFO    2016-03-18 13:55:39,839 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 13:55:40,192 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 13:57:49,471 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 13:57:49 IST 2016]; root of context hierarchy
+INFO    2016-03-18 13:57:49,517 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 13:57:49,884 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 14:01:31,353 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 14:01:31 IST 2016]; root of context hierarchy
+INFO    2016-03-18 14:01:31,396 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 14:01:31,868 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 14:02:44,530 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 14:02:44 IST 2016]; root of context hierarchy
+INFO    2016-03-18 14:02:44,580 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 14:02:45,014 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 14:03:44,243 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 14:03:44 IST 2016]; root of context hierarchy
+INFO    2016-03-18 14:03:44,287 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 14:03:44,657 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 14:05:12,347 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 14:05:12 IST 2016]; root of context hierarchy
+INFO    2016-03-18 14:05:12,389 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 14:05:12,753 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 14:06:03,393 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 14:06:03 IST 2016]; root of context hierarchy
+INFO    2016-03-18 14:06:03,439 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 14:06:03,802 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 14:07:12,175 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 14:07:12 IST 2016]; root of context hierarchy
+INFO    2016-03-18 14:07:12,226 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 14:07:12,604 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 14:08:43,303 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 14:08:43 IST 2016]; root of context hierarchy
+INFO    2016-03-18 14:08:43,344 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 14:08:43,710 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 14:09:35,898 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 14:09:35 IST 2016]; root of context hierarchy
+INFO    2016-03-18 14:09:35,942 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 14:09:36,296 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 14:16:44,137 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 14:16:44 IST 2016]; root of context hierarchy
+INFO    2016-03-18 14:16:44,183 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 14:16:44,558 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 14:19:25,520 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 14:19:25 IST 2016]; root of context hierarchy
+INFO    2016-03-18 14:19:25,564 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 14:19:25,940 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 14:21:58,911 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 14:21:58 IST 2016]; root of context hierarchy
+INFO    2016-03-18 14:21:58,957 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 14:23:18,341 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 14:23:18 IST 2016]; root of context hierarchy
+INFO    2016-03-18 14:23:18,384 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 14:23:18,760 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 14:24:19,638 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 14:24:19 IST 2016]; root of context hierarchy
+INFO    2016-03-18 14:24:19,685 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 14:24:20,061 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 17:06:15,447 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 17:06:15 IST 2016]; root of context hierarchy
+INFO    2016-03-18 17:06:15,556 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 17:06:16,030 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 17:33:12,360 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 17:33:12 IST 2016]; root of context hierarchy
+INFO    2016-03-18 17:33:12,413 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 17:33:12,985 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 17:34:23,271 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 17:34:23 IST 2016]; root of context hierarchy
+INFO    2016-03-18 17:34:23,313 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 17:34:23,684 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 17:39:38,303 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 17:39:38 IST 2016]; root of context hierarchy
+INFO    2016-03-18 17:39:38,344 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 17:39:38,754 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+WARN    2016-03-18 17:39:38,824 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sendEMail' defined in class path resource [application-context.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'simpleMailMessage' of bean class [com.maneesh.spring.mail.SendEMail]: Bean property 'simpleMailMessage' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1506)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.maneesh.spring.mail.MailTest.main(MailTest.java:9)
+Caused by: org.springframework.beans.NotWritablePropertyException: Invalid property 'simpleMailMessage' of bean class [com.maneesh.spring.mail.SendEMail]: Bean property 'simpleMailMessage' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+	at org.springframework.beans.BeanWrapperImpl.setPropertyValue(BeanWrapperImpl.java:1076)
+	at org.springframework.beans.BeanWrapperImpl.setPropertyValue(BeanWrapperImpl.java:927)
+	at org.springframework.beans.AbstractPropertyAccessor.setPropertyValues(AbstractPropertyAccessor.java:95)
+	at org.springframework.beans.AbstractPropertyAccessor.setPropertyValues(AbstractPropertyAccessor.java:75)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1502)
+	... 13 more
+INFO    2016-03-18 17:41:55,344 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 17:41:55 IST 2016]; root of context hierarchy
+INFO    2016-03-18 17:41:55,395 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 17:41:55,788 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 17:42:58,284 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 17:42:58 IST 2016]; root of context hierarchy
+INFO    2016-03-18 17:42:58,334 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 17:42:58,806 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 17:43:54,454 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 17:43:54 IST 2016]; root of context hierarchy
+INFO    2016-03-18 17:43:54,504 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 17:43:54,865 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 17:45:21,935 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 17:45:21 IST 2016]; root of context hierarchy
+INFO    2016-03-18 17:45:21,986 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 17:45:22,346 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 17:47:10,517 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 17:47:10 IST 2016]; root of context hierarchy
+INFO    2016-03-18 17:47:10,557 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 17:47:10,968 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 17:51:35,652 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 17:51:35 IST 2016]; root of context hierarchy
+INFO    2016-03-18 17:51:35,693 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 17:51:36,073 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 17:53:04,833 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 17:53:04 IST 2016]; root of context hierarchy
+INFO    2016-03-18 17:53:04,875 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 17:53:49,050 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 17:53:49 IST 2016]; root of context hierarchy
+INFO    2016-03-18 17:53:49,104 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 17:53:49,642 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 17:59:46,825 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 17:59:46 IST 2016]; root of context hierarchy
+INFO    2016-03-18 17:59:46,871 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 17:59:47,257 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 18:01:21,488 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 18:01:21 IST 2016]; root of context hierarchy
+INFO    2016-03-18 18:01:21,532 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 18:01:22,459 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 18:05:11,213 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Mar 18 18:05:11 IST 2016]; root of context hierarchy
+INFO    2016-03-18 18:05:11,253 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 18:05:11,823 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 18:14:59,395 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 18:14:59 IST 2016]; root of context hierarchy
+INFO    2016-03-18 18:14:59,936 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 18:15:02,276 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 18:17:55,890 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 18:17:55 IST 2016]; root of context hierarchy
+INFO    2016-03-18 18:17:55,961 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 18:17:56,567 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 18:20:24,072 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 18:20:24 IST 2016]; root of context hierarchy
+INFO    2016-03-18 18:20:24,113 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 18:20:24,604 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 18:21:52,521 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 18:21:52 IST 2016]; root of context hierarchy
+INFO    2016-03-18 18:21:52,561 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 18:21:52,925 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 18:23:42,807 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 18:23:42 IST 2016]; root of context hierarchy
+INFO    2016-03-18 18:23:42,858 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 18:23:43,240 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 18:24:57,323 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 18:24:57 IST 2016]; root of context hierarchy
+INFO    2016-03-18 18:24:57,354 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 18:24:57,741 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 18:27:26,246 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 18:27:26 IST 2016]; root of context hierarchy
+INFO    2016-03-18 18:27:26,298 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 18:27:26,660 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 18:28:08,764 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 18:28:08 IST 2016]; root of context hierarchy
+INFO    2016-03-18 18:28:08,804 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 18:28:09,162 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 18:29:08,660 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 18:29:08 IST 2016]; root of context hierarchy
+INFO    2016-03-18 18:29:08,700 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 18:29:09,079 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 18:30:28,829 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 18:30:28 IST 2016]; root of context hierarchy
+INFO    2016-03-18 18:30:28,861 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 18:30:29,222 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 18:31:25,723 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 18:31:25 IST 2016]; root of context hierarchy
+INFO    2016-03-18 18:31:25,763 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 18:31:26,152 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 18:32:53,809 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 18:32:53 IST 2016]; root of context hierarchy
+INFO    2016-03-18 18:32:53,880 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 18:32:54,527 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 18:37:31,864 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 18:37:31 IST 2016]; root of context hierarchy
+INFO    2016-03-18 18:37:31,905 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 18:37:32,326 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 18:44:54,947 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 18:44:54 IST 2016]; root of context hierarchy
+INFO    2016-03-18 18:44:54,988 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 18:44:55,359 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 18:48:31,785 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 18:48:31 IST 2016]; root of context hierarchy
+INFO    2016-03-18 18:48:31,831 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 18:48:32,205 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 21:48:42,084 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 21:48:42 IST 2016]; root of context hierarchy
+INFO    2016-03-18 21:48:42,135 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 21:48:42,492 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 21:50:11,467 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 21:50:11 IST 2016]; root of context hierarchy
+INFO    2016-03-18 21:50:11,507 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 21:50:11,868 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 21:51:15,818 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 21:51:15 IST 2016]; root of context hierarchy
+INFO    2016-03-18 21:51:15,864 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 21:51:16,236 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 21:52:15,074 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 21:52:15 IST 2016]; root of context hierarchy
+INFO    2016-03-18 21:52:15,114 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 21:52:15,487 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 21:53:30,639 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 21:53:30 IST 2016]; root of context hierarchy
+INFO    2016-03-18 21:53:30,680 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 21:53:31,050 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 21:55:14,462 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 21:55:14 IST 2016]; root of context hierarchy
+INFO    2016-03-18 21:55:14,522 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 21:55:14,878 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:00:31,838 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:00:31 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:00:31,889 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:00:32,254 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:06:26,287 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:06:26 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:06:26,338 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:06:26,708 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:07:25,686 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:07:25 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:07:25,726 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:07:26,157 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:08:15,334 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:08:15 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:08:15,374 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:08:15,755 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:09:26,794 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:09:26 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:09:26,835 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:09:27,215 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:11:23,657 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:11:23 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:11:23,707 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:11:24,068 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:13:08,796 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:13:08 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:13:08,837 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:13:09,197 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:15:10,757 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:15:10 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:15:10,798 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:15:11,162 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:16:33,064 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:16:33 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:16:33,114 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:16:33,495 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:17:34,190 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:17:34 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:17:34,231 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:17:34,581 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:18:33,435 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:18:33 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:18:33,475 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:18:33,816 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:19:33,644 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:19:33 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:19:33,694 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:19:34,055 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:20:48,171 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:20:48 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:20:48,212 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:20:48,582 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:21:57,378 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:21:57 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:21:57,418 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:21:57,789 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:22:41,628 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:22:41 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:22:41,668 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:22:42,027 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:23:15,540 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:23:15 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:23:15,583 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:23:15,949 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:24:28,211 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:24:28 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:24:28,247 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:24:28,612 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:25:56,636 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:25:56 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:25:56,677 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:25:57,040 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:27:30,101 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:27:30 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:27:30,151 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:27:30,512 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:28:48,735 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:28:48 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:28:48,776 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:28:49,116 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:31:52,468 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:31:52 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:31:52,509 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:31:52,869 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:33:50,748 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:33:50 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:33:50,788 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:33:51,149 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:34:43,335 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:34:43 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:34:43,376 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:34:43,741 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:35:35,989 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:35:35 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:35:36,039 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:35:36,400 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:36:33,175 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:36:33 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:36:33,215 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:36:33,576 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:37:31,005 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:37:31 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:37:31,046 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:37:31,396 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:38:18,517 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:38:18 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:38:18,567 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:38:18,918 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:43:18,845 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:43:18 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:43:18,896 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:43:19,246 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:44:41,144 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:44:41 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:44:41,194 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:44:41,545 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:45:18,882 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:45:18 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:45:18,933 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:45:19,303 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:46:00,586 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:46:00 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:46:00,626 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:46:00,987 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:52:23,163 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:52:23 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:52:23,204 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:52:23,575 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:53:19,329 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:53:19 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:53:19,379 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:53:19,730 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 22:58:44,102 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 22:58:44 IST 2016]; root of context hierarchy
+INFO    2016-03-18 22:58:44,165 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 22:58:44,654 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 23:00:47,918 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 23:00:47 IST 2016]; root of context hierarchy
+INFO    2016-03-18 23:00:47,971 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 23:00:48,368 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 23:07:00,667 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 23:07:00 IST 2016]; root of context hierarchy
+INFO    2016-03-18 23:07:00,720 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 23:07:01,122 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 23:08:27,726 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 23:08:27 IST 2016]; root of context hierarchy
+INFO    2016-03-18 23:08:27,776 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 23:08:28,147 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 23:08:49,519 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 23:08:49 IST 2016]; root of context hierarchy
+INFO    2016-03-18 23:08:49,569 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 23:08:49,985 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 23:10:05,459 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 23:10:05 IST 2016]; root of context hierarchy
+INFO    2016-03-18 23:10:05,502 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 23:10:05,898 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 23:17:50,660 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 23:17:50 IST 2016]; root of context hierarchy
+INFO    2016-03-18 23:17:50,701 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 23:17:51,091 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 23:19:31,326 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 23:19:31 IST 2016]; root of context hierarchy
+INFO    2016-03-18 23:19:31,366 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 23:19:31,747 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 23:23:54,779 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3498ed: startup date [Fri Mar 18 23:23:54 IST 2016]; root of context hierarchy
+INFO    2016-03-18 23:23:54,827 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 23:24:58,262 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3498ed: startup date [Fri Mar 18 23:24:58 IST 2016]; root of context hierarchy
+INFO    2016-03-18 23:24:58,302 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 23:25:44,882 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 23:25:44 IST 2016]; root of context hierarchy
+INFO    2016-03-18 23:25:44,929 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 23:26:24,533 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 23:26:24 IST 2016]; root of context hierarchy
+INFO    2016-03-18 23:26:24,584 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 23:26:24,943 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 23:28:01,767 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 23:28:01 IST 2016]; root of context hierarchy
+INFO    2016-03-18 23:28:01,824 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 23:28:02,186 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 23:28:55,294 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 23:28:55 IST 2016]; root of context hierarchy
+INFO    2016-03-18 23:28:55,345 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 23:28:55,902 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 23:29:46,962 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 23:29:46 IST 2016]; root of context hierarchy
+INFO    2016-03-18 23:29:47,030 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 23:29:47,502 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 23:33:10,693 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 23:33:10 IST 2016]; root of context hierarchy
+INFO    2016-03-18 23:33:10,761 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 23:33:11,281 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 23:35:33,896 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 23:35:33 IST 2016]; root of context hierarchy
+INFO    2016-03-18 23:35:33,946 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 23:35:34,357 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-18 23:36:04,821 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Fri Mar 18 23:36:04 IST 2016]; root of context hierarchy
+INFO    2016-03-18 23:36:04,870 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-18 23:36:05,422 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 11:21:50,013 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 11:21:50 IST 2016]; root of context hierarchy
+INFO    2016-03-19 11:21:50,100 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 11:21:50,573 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 11:22:48,141 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 11:22:48 IST 2016]; root of context hierarchy
+INFO    2016-03-19 11:22:48,193 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 11:22:48,581 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 11:23:54,197 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 11:23:54 IST 2016]; root of context hierarchy
+INFO    2016-03-19 11:23:54,251 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 11:23:54,649 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 11:24:47,062 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 11:24:47 IST 2016]; root of context hierarchy
+INFO    2016-03-19 11:24:47,118 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 11:24:47,523 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 11:25:16,723 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 11:25:16 IST 2016]; root of context hierarchy
+INFO    2016-03-19 11:25:16,778 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 11:25:17,226 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 11:25:48,057 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 11:25:48 IST 2016]; root of context hierarchy
+INFO    2016-03-19 11:25:48,107 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 11:25:48,522 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 11:26:20,626 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 11:26:20 IST 2016]; root of context hierarchy
+INFO    2016-03-19 11:26:20,677 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 11:26:21,137 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 11:32:29,716 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 11:32:29 IST 2016]; root of context hierarchy
+INFO    2016-03-19 11:32:29,767 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 11:32:30,127 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 11:33:24,502 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 11:33:24 IST 2016]; root of context hierarchy
+INFO    2016-03-19 11:33:24,542 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 11:33:24,903 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 11:35:08,600 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 11:35:08 IST 2016]; root of context hierarchy
+INFO    2016-03-19 11:35:08,651 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 11:35:09,011 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 11:51:44,001 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 11:51:44 IST 2016]; root of context hierarchy
+INFO    2016-03-19 11:51:44,042 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 11:51:44,412 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 11:57:07,320 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 11:57:07 IST 2016]; root of context hierarchy
+INFO    2016-03-19 11:57:07,361 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 11:57:07,731 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 11:59:38,519 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 11:59:38 IST 2016]; root of context hierarchy
+INFO    2016-03-19 11:59:38,570 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 11:59:38,929 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 12:00:45,823 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 12:00:45 IST 2016]; root of context hierarchy
+INFO    2016-03-19 12:00:45,873 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 12:00:46,244 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 12:01:48,843 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 12:01:48 IST 2016]; root of context hierarchy
+INFO    2016-03-19 12:01:48,888 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 12:01:49,265 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 12:05:26,077 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 12:05:26 IST 2016]; root of context hierarchy
+INFO    2016-03-19 12:05:26,138 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 12:05:26,620 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 12:14:01,248 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 12:14:01 IST 2016]; root of context hierarchy
+INFO    2016-03-19 12:14:01,299 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 12:14:01,649 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 12:14:43,034 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 12:14:43 IST 2016]; root of context hierarchy
+INFO    2016-03-19 12:14:43,105 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 12:14:43,537 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 12:18:12,033 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 12:18:12 IST 2016]; root of context hierarchy
+INFO    2016-03-19 12:18:12,074 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 12:18:12,434 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 12:19:08,972 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 12:19:08 IST 2016]; root of context hierarchy
+INFO    2016-03-19 12:19:09,012 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 12:19:09,378 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 12:20:41,606 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 12:20:41 IST 2016]; root of context hierarchy
+INFO    2016-03-19 12:20:41,657 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 12:20:42,017 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 12:23:47,303 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 12:23:47 IST 2016]; root of context hierarchy
+INFO    2016-03-19 12:23:47,348 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 12:23:47,710 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 12:27:15,419 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 12:27:15 IST 2016]; root of context hierarchy
+INFO    2016-03-19 12:27:15,460 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 12:27:15,830 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 12:28:37,408 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79698539: startup date [Sat Mar 19 12:28:37 IST 2016]; root of context hierarchy
+INFO    2016-03-19 12:28:37,448 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 12:28:37,826 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 12:34:00,177 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 12:37:12,599 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 12:38:27,735 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 12:39:10,140 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 12:39:43,744 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 12:40:18,961 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 12:41:06,137 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 12:41:44,135 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 12:42:30,324 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 14:48:59,007 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 14:56:00,578 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 14:58:10,601 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 15:11:10,675 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 15:15:19,571 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 15:19:58,922 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 15:20:50,959 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 15:21:26,077 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 15:22:21,364 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 15:28:56,297 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 15:36:09,393 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 15:44:04,033 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 15:44:58,337 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 15:46:34,493 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 15:58:04,485 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 15:59:14,504 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 16:06:08,059 [main] org.springframework.context.support.FileSystemXmlApplicationContext  - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@7a5d012c: startup date [Sat Mar 19 16:06:08 IST 2016]; root of context hierarchy
+INFO    2016-03-19 16:06:08,115 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Projects\Personal Projects\J2EESpringMVCAndHibernate\application-context.xml]
+INFO    2016-03-19 16:08:03,822 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7a5d012c: startup date [Sat Mar 19 16:08:03 IST 2016]; root of context hierarchy
+INFO    2016-03-19 16:08:03,885 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 16:08:04,360 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 16:09:15,426 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7a5d012c: startup date [Sat Mar 19 16:09:15 IST 2016]; root of context hierarchy
+INFO    2016-03-19 16:09:15,485 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 16:09:15,925 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 16:10:30,887 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7a5d012c: startup date [Sat Mar 19 16:10:30 IST 2016]; root of context hierarchy
+INFO    2016-03-19 16:10:30,938 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 16:10:31,403 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 16:12:16,839 [main] org.springframework.context.support.FileSystemXmlApplicationContext  - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@7a5d012c: startup date [Sat Mar 19 16:12:16 IST 2016]; root of context hierarchy
+INFO    2016-03-19 16:12:16,897 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Projects\Personal Projects\J2EESpringMVCAndHibernate\application-context.xml]
+INFO    2016-03-19 16:12:53,281 [main] org.springframework.context.support.FileSystemXmlApplicationContext  - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@7a5d012c: startup date [Sat Mar 19 16:12:53 IST 2016]; root of context hierarchy
+INFO    2016-03-19 16:12:53,334 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Projects\Personal Projects\J2EESpringMVCAndHibernate\.\application-context.xml]
+INFO    2016-03-19 16:13:20,320 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7a5d012c: startup date [Sat Mar 19 16:13:20 IST 2016]; root of context hierarchy
+INFO    2016-03-19 16:13:20,373 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 16:13:20,821 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 16:17:15,036 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7a5d012c: startup date [Sat Mar 19 16:17:15 IST 2016]; root of context hierarchy
+INFO    2016-03-19 16:17:15,096 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 16:17:15,542 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-19 16:18:23,547 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7a5d012c: startup date [Sat Mar 19 16:18:23 IST 2016]; root of context hierarchy
+INFO    2016-03-19 16:18:23,597 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-19 16:18:24,032 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-21 23:50:03,789 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-21 23:50:36,043 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6cd8737: startup date [Mon Mar 21 23:50:36 IST 2016]; root of context hierarchy
+INFO    2016-03-21 23:50:36,105 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-21 23:50:36,667 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-22 11:39:54,866 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate-context.xml]
+INFO    2016-03-22 11:43:11,810 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate-context.xml]
+INFO    2016-03-22 11:48:16,969 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+INFO    2016-03-22 11:56:15,308 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+INFO    2016-03-22 12:02:13,905 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+INFO    2016-03-22 12:04:44,426 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+INFO    2016-03-22 15:46:19,081 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6cd8737: startup date [Tue Mar 22 15:46:19 IST 2016]; root of context hierarchy
+INFO    2016-03-22 15:46:19,157 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-22 15:46:19,531 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-22 15:46:19,609 [Thread-1] org.springframework.context.support.ClassPathXmlApplicationContext  - Closing org.springframework.context.support.ClassPathXmlApplicationContext@6cd8737: startup date [Tue Mar 22 15:46:19 IST 2016]; root of context hierarchy
+INFO    2016-03-22 17:22:36,840 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-22 17:23:21,828 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1554909b: startup date [Tue Mar 22 17:23:21 IST 2016]; root of context hierarchy
+INFO    2016-03-22 17:23:21,898 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+WARN    2016-03-22 17:23:22,198 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mysessionFactory' defined in class path resource [hibernate.cfg.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.orm.hibernate3.LocalSessionFactoryBean]: Constructor threw exception; nested exception is java.lang.NoClassDefFoundError
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1101)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1046)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:504)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:736)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.maneesh.hibernate.InsertTest.main(InsertTest.java:16)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.orm.hibernate3.LocalSessionFactoryBean]: Constructor threw exception; nested exception is java.lang.NoClassDefFoundError
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:163)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1094)
+	... 13 more
+Caused by: java.lang.NoClassDefFoundError
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.class$(LocalSessionFactoryBean.java:175)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.<init>(LocalSessionFactoryBean.java:175)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:147)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: org.hibernate.cfg.Configuration
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	... 22 more
+INFO    2016-03-22 17:28:48,456 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@26ba2a48: startup date [Tue Mar 22 17:28:48 IST 2016]; root of context hierarchy
+INFO    2016-03-22 17:28:48,516 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+INFO    2016-03-22 17:28:49,363 [main] org.springframework.orm.hibernate3.LocalSessionFactoryBean  - Building new Hibernate SessionFactory
+WARN    2016-03-22 17:28:49,553 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mysessionFactory' defined in class path resource [hibernate.cfg.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to instantiate default tuplizer [org.hibernate.tuple.entity.PojoEntityTuplizer]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:736)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.maneesh.hibernate.InsertTest.main(InsertTest.java:16)
+Caused by: org.hibernate.HibernateException: Unable to instantiate default tuplizer [org.hibernate.tuple.entity.PojoEntityTuplizer]
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructTuplizer(EntityTuplizerFactory.java:108)
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructDefaultTuplizer(EntityTuplizerFactory.java:133)
+	at org.hibernate.tuple.entity.EntityEntityModeToTuplizerMapping.<init>(EntityEntityModeToTuplizerMapping.java:80)
+	at org.hibernate.tuple.entity.EntityMetamodel.<init>(EntityMetamodel.java:322)
+	at org.hibernate.persister.entity.AbstractEntityPersister.<init>(AbstractEntityPersister.java:485)
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:133)
+	at org.hibernate.persister.PersisterFactory.createClassPersister(PersisterFactory.java:84)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:286)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1872)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:793)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:715)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	... 12 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructTuplizer(EntityTuplizerFactory.java:105)
+	... 25 more
+Caused by: java.lang.NoClassDefFoundError: javassist/util/proxy/MethodFilter
+	at org.hibernate.bytecode.javassist.BytecodeProviderImpl.getProxyFactoryFactory(BytecodeProviderImpl.java:49)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.buildProxyFactoryInternal(PojoEntityTuplizer.java:205)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.buildProxyFactory(PojoEntityTuplizer.java:183)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.<init>(AbstractEntityTuplizer.java:167)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.<init>(PojoEntityTuplizer.java:77)
+	... 30 more
+Caused by: java.lang.ClassNotFoundException: javassist.util.proxy.MethodFilter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 35 more
+INFO    2016-03-22 17:34:34,039 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3b81a1bc: startup date [Tue Mar 22 17:34:34 IST 2016]; root of context hierarchy
+INFO    2016-03-22 17:34:34,100 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+INFO    2016-03-22 17:34:34,741 [main] org.springframework.orm.hibernate3.LocalSessionFactoryBean  - Building new Hibernate SessionFactory
+WARN    2016-03-22 17:34:34,864 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mysessionFactory' defined in class path resource [hibernate.cfg.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to instantiate default tuplizer [org.hibernate.tuple.entity.PojoEntityTuplizer]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:736)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.maneesh.hibernate.InsertTest.main(InsertTest.java:16)
+Caused by: org.hibernate.HibernateException: Unable to instantiate default tuplizer [org.hibernate.tuple.entity.PojoEntityTuplizer]
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructTuplizer(EntityTuplizerFactory.java:108)
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructDefaultTuplizer(EntityTuplizerFactory.java:133)
+	at org.hibernate.tuple.entity.EntityEntityModeToTuplizerMapping.<init>(EntityEntityModeToTuplizerMapping.java:80)
+	at org.hibernate.tuple.entity.EntityMetamodel.<init>(EntityMetamodel.java:322)
+	at org.hibernate.persister.entity.AbstractEntityPersister.<init>(AbstractEntityPersister.java:485)
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:133)
+	at org.hibernate.persister.PersisterFactory.createClassPersister(PersisterFactory.java:84)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:286)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1872)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:793)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:715)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	... 12 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructTuplizer(EntityTuplizerFactory.java:105)
+	... 25 more
+Caused by: java.lang.NoClassDefFoundError: javassist/util/proxy/MethodFilter
+	at org.hibernate.bytecode.javassist.BytecodeProviderImpl.getProxyFactoryFactory(BytecodeProviderImpl.java:49)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.buildProxyFactoryInternal(PojoEntityTuplizer.java:205)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.buildProxyFactory(PojoEntityTuplizer.java:183)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.<init>(AbstractEntityTuplizer.java:167)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.<init>(PojoEntityTuplizer.java:77)
+	... 30 more
+Caused by: java.lang.ClassNotFoundException: javassist.util.proxy.MethodFilter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 35 more
+INFO    2016-03-22 17:35:01,061 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3b81a1bc: startup date [Tue Mar 22 17:35:01 IST 2016]; root of context hierarchy
+INFO    2016-03-22 17:35:01,115 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+INFO    2016-03-22 17:35:01,729 [main] org.springframework.orm.hibernate3.LocalSessionFactoryBean  - Building new Hibernate SessionFactory
+WARN    2016-03-22 17:35:01,841 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mysessionFactory' defined in class path resource [hibernate.cfg.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to instantiate default tuplizer [org.hibernate.tuple.entity.PojoEntityTuplizer]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:736)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.maneesh.hibernate.InsertTest.main(InsertTest.java:16)
+Caused by: org.hibernate.HibernateException: Unable to instantiate default tuplizer [org.hibernate.tuple.entity.PojoEntityTuplizer]
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructTuplizer(EntityTuplizerFactory.java:108)
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructDefaultTuplizer(EntityTuplizerFactory.java:133)
+	at org.hibernate.tuple.entity.EntityEntityModeToTuplizerMapping.<init>(EntityEntityModeToTuplizerMapping.java:80)
+	at org.hibernate.tuple.entity.EntityMetamodel.<init>(EntityMetamodel.java:322)
+	at org.hibernate.persister.entity.AbstractEntityPersister.<init>(AbstractEntityPersister.java:485)
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:133)
+	at org.hibernate.persister.PersisterFactory.createClassPersister(PersisterFactory.java:84)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:286)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1872)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:793)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:715)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	... 12 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructTuplizer(EntityTuplizerFactory.java:105)
+	... 25 more
+Caused by: java.lang.NoClassDefFoundError: javassist/util/proxy/MethodFilter
+	at org.hibernate.bytecode.javassist.BytecodeProviderImpl.getProxyFactoryFactory(BytecodeProviderImpl.java:49)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.buildProxyFactoryInternal(PojoEntityTuplizer.java:205)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.buildProxyFactory(PojoEntityTuplizer.java:183)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.<init>(AbstractEntityTuplizer.java:167)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.<init>(PojoEntityTuplizer.java:77)
+	... 30 more
+Caused by: java.lang.ClassNotFoundException: javassist.util.proxy.MethodFilter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 35 more
+INFO    2016-03-22 17:44:52,296 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3b81a1bc: startup date [Tue Mar 22 17:44:52 IST 2016]; root of context hierarchy
+INFO    2016-03-22 17:44:52,367 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+INFO    2016-03-22 17:44:52,951 [main] org.springframework.orm.hibernate3.LocalSessionFactoryBean  - Building new Hibernate SessionFactory
+WARN    2016-03-22 17:44:53,102 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mysessionFactory' defined in class path resource [hibernate.cfg.xml]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Unable to instantiate default tuplizer [org.hibernate.tuple.entity.PojoEntityTuplizer]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:736)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.maneesh.hibernate.InsertTest.main(InsertTest.java:16)
+Caused by: org.hibernate.HibernateException: Unable to instantiate default tuplizer [org.hibernate.tuple.entity.PojoEntityTuplizer]
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructTuplizer(EntityTuplizerFactory.java:108)
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructDefaultTuplizer(EntityTuplizerFactory.java:133)
+	at org.hibernate.tuple.entity.EntityEntityModeToTuplizerMapping.<init>(EntityEntityModeToTuplizerMapping.java:80)
+	at org.hibernate.tuple.entity.EntityMetamodel.<init>(EntityMetamodel.java:322)
+	at org.hibernate.persister.entity.AbstractEntityPersister.<init>(AbstractEntityPersister.java:485)
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:133)
+	at org.hibernate.persister.PersisterFactory.createClassPersister(PersisterFactory.java:84)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:286)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1872)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:793)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:715)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	... 12 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructTuplizer(EntityTuplizerFactory.java:105)
+	... 25 more
+Caused by: java.lang.NoClassDefFoundError: javassist/util/proxy/MethodFilter
+	at org.hibernate.bytecode.javassist.BytecodeProviderImpl.getProxyFactoryFactory(BytecodeProviderImpl.java:49)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.buildProxyFactoryInternal(PojoEntityTuplizer.java:205)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.buildProxyFactory(PojoEntityTuplizer.java:183)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.<init>(AbstractEntityTuplizer.java:167)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.<init>(PojoEntityTuplizer.java:77)
+	... 30 more
+Caused by: java.lang.ClassNotFoundException: javassist.util.proxy.MethodFilter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 35 more
+INFO    2016-03-22 17:46:14,238 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13fee20c: startup date [Tue Mar 22 17:46:14 IST 2016]; root of context hierarchy
+INFO    2016-03-22 17:46:14,288 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+INFO    2016-03-22 17:46:14,874 [main] org.springframework.orm.hibernate3.LocalSessionFactoryBean  - Building new Hibernate SessionFactory
+WARN    2016-03-22 17:46:15,788 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myTemplate' defined in class path resource [hibernate.cfg.xml]: Cannot resolve reference to bean 'mySessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'mySessionFactory' is defined
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1477)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.maneesh.hibernate.InsertTest.main(InsertTest.java:16)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'mySessionFactory' is defined
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:687)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1168)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:281)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 15 more
+INFO    2016-03-22 17:46:15,788 [main] org.springframework.orm.hibernate3.LocalSessionFactoryBean  - Closing Hibernate SessionFactory
+INFO    2016-03-22 17:47:44,787 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13fee20c: startup date [Tue Mar 22 17:47:44 IST 2016]; root of context hierarchy
+INFO    2016-03-22 17:47:44,848 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+INFO    2016-03-22 17:47:45,517 [main] org.springframework.orm.hibernate3.LocalSessionFactoryBean  - Building new Hibernate SessionFactory
+INFO    2016-03-22 17:47:46,340 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+INFO    2016-03-22 17:47:46,391 [main] org.springframework.jdbc.support.SQLErrorCodesFactory  - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+WARN    2016-03-22 17:47:46,391 [main] org.springframework.jdbc.support.SQLErrorCodesFactory  - Error while extracting database product name - falling back to empty error codes
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:293)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:320)
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:214)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:134)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:97)
+	at org.springframework.orm.hibernate3.SessionFactoryUtils.newJdbcExceptionTranslator(SessionFactoryUtils.java:151)
+	at org.springframework.orm.hibernate3.HibernateAccessor.getDefaultJdbcExceptionTranslator(HibernateAccessor.java:454)
+	at org.springframework.orm.hibernate3.HibernateAccessor.convertHibernateAccessException(HibernateAccessor.java:412)
+	at org.springframework.orm.hibernate3.HibernateTemplate.doExecute(HibernateTemplate.java:416)
+	at org.springframework.orm.hibernate3.HibernateTemplate.executeWithNativeSession(HibernateTemplate.java:379)
+	at org.springframework.orm.hibernate3.HibernateTemplate.save(HibernateTemplate.java:718)
+	at com.maneesh.hibernate.EmployeeDao.saveEmployee(EmployeeDao.java:18)
+	at com.maneesh.hibernate.InsertTest.main(InsertTest.java:26)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:280)
+	... 12 more
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:766)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	... 13 more
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:760)
+	... 16 more
+INFO    2016-03-22 17:52:08,118 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13fee20c: startup date [Tue Mar 22 17:52:08 IST 2016]; root of context hierarchy
+INFO    2016-03-22 17:52:08,211 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+INFO    2016-03-22 17:52:08,785 [main] org.springframework.orm.hibernate3.LocalSessionFactoryBean  - Building new Hibernate SessionFactory
+INFO    2016-03-22 17:52:09,355 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+INFO    2016-03-22 17:52:09,406 [main] org.springframework.jdbc.support.SQLErrorCodesFactory  - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+WARN    2016-03-22 17:52:09,416 [main] org.springframework.jdbc.support.SQLErrorCodesFactory  - Error while extracting database product name - falling back to empty error codes
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:293)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:320)
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:214)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:134)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:97)
+	at org.springframework.orm.hibernate3.SessionFactoryUtils.newJdbcExceptionTranslator(SessionFactoryUtils.java:151)
+	at org.springframework.orm.hibernate3.HibernateAccessor.getDefaultJdbcExceptionTranslator(HibernateAccessor.java:454)
+	at org.springframework.orm.hibernate3.HibernateAccessor.convertHibernateAccessException(HibernateAccessor.java:412)
+	at org.springframework.orm.hibernate3.HibernateTemplate.doExecute(HibernateTemplate.java:416)
+	at org.springframework.orm.hibernate3.HibernateTemplate.executeWithNativeSession(HibernateTemplate.java:379)
+	at org.springframework.orm.hibernate3.HibernateTemplate.save(HibernateTemplate.java:718)
+	at com.maneesh.hibernate.EmployeeDao.saveEmployee(EmployeeDao.java:18)
+	at com.maneesh.hibernate.InsertTest.main(InsertTest.java:26)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:280)
+	... 12 more
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:766)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	... 13 more
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:760)
+	... 16 more
+INFO    2016-03-22 17:56:33,273 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13fee20c: startup date [Tue Mar 22 17:56:33 IST 2016]; root of context hierarchy
+INFO    2016-03-22 17:56:33,324 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+INFO    2016-03-22 17:56:33,885 [main] org.springframework.orm.hibernate3.LocalSessionFactoryBean  - Building new Hibernate SessionFactory
+INFO    2016-03-22 17:56:34,457 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+INFO    2016-03-22 17:56:34,498 [main] org.springframework.jdbc.support.SQLErrorCodesFactory  - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+WARN    2016-03-22 17:56:34,508 [main] org.springframework.jdbc.support.SQLErrorCodesFactory  - Error while extracting database product name - falling back to empty error codes
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:293)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:320)
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:214)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:134)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:97)
+	at org.springframework.orm.hibernate3.SessionFactoryUtils.newJdbcExceptionTranslator(SessionFactoryUtils.java:151)
+	at org.springframework.orm.hibernate3.HibernateAccessor.getDefaultJdbcExceptionTranslator(HibernateAccessor.java:454)
+	at org.springframework.orm.hibernate3.HibernateAccessor.convertHibernateAccessException(HibernateAccessor.java:412)
+	at org.springframework.orm.hibernate3.HibernateTemplate.doExecute(HibernateTemplate.java:416)
+	at org.springframework.orm.hibernate3.HibernateTemplate.executeWithNativeSession(HibernateTemplate.java:379)
+	at org.springframework.orm.hibernate3.HibernateTemplate.save(HibernateTemplate.java:718)
+	at com.maneesh.hibernate.EmployeeDao.saveEmployee(EmployeeDao.java:18)
+	at com.maneesh.hibernate.InsertTest.main(InsertTest.java:26)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:280)
+	... 12 more
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:766)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	... 13 more
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:760)
+	... 16 more
+INFO    2016-03-22 17:57:16,734 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13fee20c: startup date [Tue Mar 22 17:57:16 IST 2016]; root of context hierarchy
+INFO    2016-03-22 17:57:16,804 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+INFO    2016-03-22 17:57:17,347 [main] org.springframework.orm.hibernate3.LocalSessionFactoryBean  - Building new Hibernate SessionFactory
+INFO    2016-03-22 17:57:17,898 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+INFO    2016-03-22 17:57:17,948 [main] org.springframework.jdbc.support.SQLErrorCodesFactory  - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+WARN    2016-03-22 17:57:17,948 [main] org.springframework.jdbc.support.SQLErrorCodesFactory  - Error while extracting database product name - falling back to empty error codes
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:293)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:320)
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:214)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:134)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:97)
+	at org.springframework.orm.hibernate3.SessionFactoryUtils.newJdbcExceptionTranslator(SessionFactoryUtils.java:151)
+	at org.springframework.orm.hibernate3.HibernateAccessor.getDefaultJdbcExceptionTranslator(HibernateAccessor.java:454)
+	at org.springframework.orm.hibernate3.HibernateAccessor.convertHibernateAccessException(HibernateAccessor.java:412)
+	at org.springframework.orm.hibernate3.HibernateTemplate.doExecute(HibernateTemplate.java:416)
+	at org.springframework.orm.hibernate3.HibernateTemplate.executeWithNativeSession(HibernateTemplate.java:379)
+	at org.springframework.orm.hibernate3.HibernateTemplate.save(HibernateTemplate.java:718)
+	at com.maneesh.hibernate.EmployeeDao.saveEmployee(EmployeeDao.java:18)
+	at com.maneesh.hibernate.InsertTest.main(InsertTest.java:26)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:280)
+	... 12 more
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:766)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	... 13 more
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:760)
+	... 16 more
+INFO    2016-03-22 18:02:24,491 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@783e6358: startup date [Tue Mar 22 18:02:24 IST 2016]; root of context hierarchy
+INFO    2016-03-22 18:02:24,553 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+INFO    2016-03-22 18:02:25,402 [main] org.springframework.orm.hibernate3.LocalSessionFactoryBean  - Building new Hibernate SessionFactory
+INFO    2016-03-22 18:02:27,435 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+INFO    2016-03-22 18:02:27,473 [main] org.springframework.jdbc.support.SQLErrorCodesFactory  - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+WARN    2016-03-22 18:02:27,483 [main] org.springframework.jdbc.support.SQLErrorCodesFactory  - Error while extracting database product name - falling back to empty error codes
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user 'localhost'@'localhost' (using password: YES))
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:293)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:320)
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:214)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:134)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:97)
+	at org.springframework.orm.hibernate3.SessionFactoryUtils.newJdbcExceptionTranslator(SessionFactoryUtils.java:151)
+	at org.springframework.orm.hibernate3.HibernateAccessor.getDefaultJdbcExceptionTranslator(HibernateAccessor.java:454)
+	at org.springframework.orm.hibernate3.HibernateAccessor.convertHibernateAccessException(HibernateAccessor.java:412)
+	at org.springframework.orm.hibernate3.HibernateTemplate.doExecute(HibernateTemplate.java:416)
+	at org.springframework.orm.hibernate3.HibernateTemplate.executeWithNativeSession(HibernateTemplate.java:379)
+	at org.springframework.orm.hibernate3.HibernateTemplate.save(HibernateTemplate.java:718)
+	at com.maneesh.hibernate.EmployeeDao.saveEmployee(EmployeeDao.java:18)
+	at com.maneesh.hibernate.InsertTest.main(InsertTest.java:26)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user 'localhost'@'localhost' (using password: YES))
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:280)
+	... 12 more
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user 'localhost'@'localhost' (using password: YES))
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:855)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	... 13 more
+Caused by: java.sql.SQLException: Access denied for user 'localhost'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3558)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3490)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:919)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3996)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2137)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:352)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:284)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:37)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:290)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:877)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:851)
+	... 16 more
+INFO    2016-03-22 18:03:20,284 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@783e6358: startup date [Tue Mar 22 18:03:20 IST 2016]; root of context hierarchy
+INFO    2016-03-22 18:03:20,360 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+INFO    2016-03-22 18:03:21,025 [main] org.springframework.orm.hibernate3.LocalSessionFactoryBean  - Building new Hibernate SessionFactory
+INFO    2016-03-22 18:03:21,941 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+INFO    2016-03-22 18:03:21,978 [main] org.springframework.jdbc.support.SQLErrorCodesFactory  - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+WARN    2016-03-22 18:03:21,996 [main] org.springframework.jdbc.support.SQLErrorCodesFactory  - Error while extracting database product name - falling back to empty error codes
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user 'root'@'localhost' (using password: YES))
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:293)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:320)
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:214)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:134)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:97)
+	at org.springframework.orm.hibernate3.SessionFactoryUtils.newJdbcExceptionTranslator(SessionFactoryUtils.java:151)
+	at org.springframework.orm.hibernate3.HibernateAccessor.getDefaultJdbcExceptionTranslator(HibernateAccessor.java:454)
+	at org.springframework.orm.hibernate3.HibernateAccessor.convertHibernateAccessException(HibernateAccessor.java:412)
+	at org.springframework.orm.hibernate3.HibernateTemplate.doExecute(HibernateTemplate.java:416)
+	at org.springframework.orm.hibernate3.HibernateTemplate.executeWithNativeSession(HibernateTemplate.java:379)
+	at org.springframework.orm.hibernate3.HibernateTemplate.save(HibernateTemplate.java:718)
+	at com.maneesh.hibernate.EmployeeDao.saveEmployee(EmployeeDao.java:18)
+	at com.maneesh.hibernate.InsertTest.main(InsertTest.java:26)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user 'root'@'localhost' (using password: YES))
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:280)
+	... 12 more
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user 'root'@'localhost' (using password: YES))
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:855)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:540)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	... 13 more
+Caused by: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3558)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3490)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:919)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3996)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2137)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:352)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:284)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:37)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:290)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:877)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:851)
+	... 16 more
+INFO    2016-03-22 18:03:53,064 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@783e6358: startup date [Tue Mar 22 18:03:53 IST 2016]; root of context hierarchy
+INFO    2016-03-22 18:03:53,123 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+INFO    2016-03-22 18:03:53,739 [main] org.springframework.orm.hibernate3.LocalSessionFactoryBean  - Building new Hibernate SessionFactory
+INFO    2016-03-22 18:22:49,734 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@783e6358: startup date [Tue Mar 22 18:22:49 IST 2016]; root of context hierarchy
+INFO    2016-03-22 18:22:49,809 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+INFO    2016-03-22 18:22:50,360 [main] org.springframework.orm.hibernate3.LocalSessionFactoryBean  - Building new Hibernate SessionFactory
+INFO    2016-03-22 18:23:11,488 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@783e6358: startup date [Tue Mar 22 18:23:11 IST 2016]; root of context hierarchy
+INFO    2016-03-22 18:23:11,538 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+INFO    2016-03-22 18:23:12,106 [main] org.springframework.orm.hibernate3.LocalSessionFactoryBean  - Building new Hibernate SessionFactory
+INFO    2016-03-22 18:34:22,140 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@783e6358: startup date [Tue Mar 22 18:34:22 IST 2016]; root of context hierarchy
+INFO    2016-03-22 18:34:22,191 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+INFO    2016-03-22 18:34:22,852 [main] org.springframework.orm.hibernate3.LocalSessionFactoryBean  - Building new Hibernate SessionFactory
+INFO    2016-03-22 18:35:56,249 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@783e6358: startup date [Tue Mar 22 18:35:56 IST 2016]; root of context hierarchy
+INFO    2016-03-22 18:35:56,320 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+INFO    2016-03-22 18:35:56,943 [main] org.springframework.orm.hibernate3.LocalSessionFactoryBean  - Building new Hibernate SessionFactory
+INFO    2016-03-22 18:54:58,226 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@783e6358: startup date [Tue Mar 22 18:54:58 IST 2016]; root of context hierarchy
+INFO    2016-03-22 18:54:58,287 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [hibernate.cfg.xml]
+INFO    2016-03-22 18:54:58,838 [main] org.springframework.orm.hibernate3.LocalSessionFactoryBean  - Building new Hibernate SessionFactory
+INFO    2016-03-22 22:20:22,303 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-22 22:21:22,582 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-22 22:22:41,448 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-22 23:49:30,585 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@783e6358: startup date [Tue Mar 22 23:49:30 IST 2016]; root of context hierarchy
+INFO    2016-03-22 23:49:30,657 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-22 23:49:31,329 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info
+INFO    2016-03-22 23:51:28,997 [main] org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@783e6358: startup date [Tue Mar 22 23:51:28 IST 2016]; root of context hierarchy
+INFO    2016-03-22 23:51:29,053 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [application-context.xml]
+INFO    2016-03-22 23:51:29,438 [main] com.maneesh.spring.logger.SpringLogger  - This is default constructor - info

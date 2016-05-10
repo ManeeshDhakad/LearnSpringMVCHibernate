@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+    
+    <!-- Scope -->
+    <bean id="singleton" class="com.maneesh.spring.scope.Singleton" scope="singleton">
+	</bean>
+	
+	<bean id="prototype" class="com.maneesh.spring.scope.Prototype" scope="prototype">
+	</bean>
+    
+	<!-- Bean life cycle start -->
+	<bean id="beanLifeCycle" class="com.maneesh.spring.lifecycle.BeanLifeCycle" init-method="init" destroy-method="destroy">
+		<property name="id" value="101"></property>
+		<property name="name" value="Maneesh Dhakad"></property>
+	</bean>
+	<!-- Bean life cycle end -->
+	
+	<!-- Dependency injection for Setters start -->
+	<bean id="diSetter" class="com.maneesh.spring.di.setter.DISetter">
+		<property name="id" value="101"></property>
+		<property name="name" value="Maneesh Dhakad"></property>
+	</bean>
+	
+	<bean id="diListObject1" class="com.maneesh.spring.di.setter.DIListObject">
+		<property name="id" value="101"></property>
+		<property name="name" value="Maneesh Dhakad"></property>
+		<property name="addresses">  
+			<list>  
+				<ref bean="address"/>  
+				<ref bean="address1"/>  
+			</list>  
+		</property>  
+	</bean>
+	
+	<bean id="diMapObject1" class="com.maneesh.spring.di.setter.DIMapObject">
+		<property name="id" value="101"></property>
+		<property name="name" value="Maneesh Dhakad"></property>
+		<property name="interview">  
+			<map>
+				<entry key-ref="question1" value-ref="answer1"></entry>
+				<entry key-ref="question2" value-ref="answer2"></entry>
+			</map>
+		</property>  
+	</bean>
+	<!-- Dependency injection for Setters end -->
+	
+	<!-- Dependency injection for Constructors start-->
+	<bean id="diConstructor" class="com.maneesh.spring.di.constructor.DIConstructor">
+		<constructor-arg type="int" value="101"></constructor-arg>
+		<constructor-arg value="Maneesh"></constructor-arg>
+	</bean>
+	
+	<bean id="address" class="com.maneesh.spring.Address">
+		<constructor-arg value="Bhopal"></constructor-arg>
+		<constructor-arg value="Madhya Pradesh"></constructor-arg>
+		<constructor-arg value="India"></constructor-arg>
+	</bean>
+	<bean id="address1" class="com.maneesh.spring.Address">
+		<constructor-arg value="Bangalore"></constructor-arg>
+		<constructor-arg value="Karnataka"></constructor-arg>
+		<constructor-arg value="India"></constructor-arg>
+	</bean>
+	
+	<bean id="diConstructorObject" class="com.maneesh.spring.di.constructor.DIConstructorObject">
+		<constructor-arg value="101" type="int"></constructor-arg>
+		<constructor-arg value="Maneesh"></constructor-arg>
+		<constructor-arg>
+			<ref bean="address" />
+		</constructor-arg>
+	</bean>
+	
+	<bean id="question1" class="com.maneesh.spring.Question">
+		<constructor-arg value="1" type="int"></constructor-arg>
+		<constructor-arg value="DOB"></constructor-arg>
+	</bean>
+	<bean id="question2" class="com.maneesh.spring.Question">
+		<constructor-arg value="2" type="int"></constructor-arg>
+		<constructor-arg value="Strength"></constructor-arg>
+	</bean>
+	
+	<bean id="answer1" class="com.maneesh.spring.Answer">
+		<constructor-arg value="1" type="int"></constructor-arg>
+		<constructor-arg value="12/05/1990"></constructor-arg>
+	</bean>
+	<bean id="answer2" class="com.maneesh.spring.Answer">
+		<constructor-arg value="2" type="int"></constructor-arg>
+		<constructor-arg value="Positive"></constructor-arg>
+	</bean>
+	<!-- Dependency injection for Constructors end-->
+	
+	<!-- Dependency injection for Collections start-->
+	<bean id="diList" class="com.maneesh.spring.di.collection.DIList">
+		<constructor-arg value="101"></constructor-arg>
+		<constructor-arg value="Maneesh"></constructor-arg>
+		<constructor-arg>
+			<list>
+				<value>Strong in Technical</value>
+				<value>Expert in Programming</value>
+				<value>Positive</value>
+			</list>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="diListObject" class="com.maneesh.spring.di.collection.DIListObject">
+		<constructor-arg value="111"></constructor-arg>
+		<constructor-arg value="Maneesh"></constructor-arg>
+		<constructor-arg>
+			<list>
+				<ref bean="address" />
+				<ref bean="address1" />
+			</list>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="diMap" class="com.maneesh.spring.di.collection.DIMap">  
+		<constructor-arg value="101"></constructor-arg>  
+		<constructor-arg value="Maneesh"></constructor-arg>  
+		<constructor-arg>  
+			<map>  
+				<entry key="10th"  value="72%"></entry>  
+				<entry key="12th" value="75%"></entry>  
+				<entry key="M-Tech" value="7.5 CGPA"></entry>  
+			</map>  
+		</constructor-arg>  
+	</bean>  
+	
+	<bean id="diMapObject" class="com.maneesh.spring.di.collection.DIMapObject">
+		<constructor-arg value="111"></constructor-arg>
+		<constructor-arg value="Maneesh"></constructor-arg>
+		<constructor-arg>
+			<map>
+				<entry key-ref="question1" value-ref="answer1"></entry>
+				<entry key-ref="question2" value-ref="answer2"></entry>
+			</map>
+		</constructor-arg>
+	</bean>
+	<!-- Dependency injection for Collections end-->
+	
+	<!-- Dependency injection for inheritance start -->
+	<bean id="diInheritance1" class="com.maneesh.spring.di.inheritance.DIInheritance">  
+		<constructor-arg value="101"></constructor-arg>  
+		<constructor-arg  value="Maneesh Dhakad"></constructor-arg>  
+	</bean>  
+    
+	<bean id="diInheritance2" class="com.maneesh.spring.di.inheritance.DIInheritance" parent="diInheritance1">  
+		<constructor-arg ref="address"></constructor-arg>  
+	</bean>  
+	<!-- Dependency injection for inheritance end -->
+	
+	<bean id="springLogger" class="com.maneesh.spring.logger.SpringLogger">
+		<property name="id" value="101"></property>
+		<property name="name" value="Maneesh Dhakad"></property>
+	</bean>
+	
+	<!-- Auto wiring for Dependency injection -->
+	<!-- By Name -->
+	<bean id="byName" class="com.maneesh.spring.autowiring.ByName" autowire="byName">
+		<property name="id" value="101"></property>
+		<property name="name" value="Maneesh Dhakad"></property>
+	</bean>
+	
+	<bean id="byNameAddress" class="com.maneesh.spring.autowiring.ByNameAddress">
+		<constructor-arg value="byName - Bhopal"></constructor-arg>
+		<constructor-arg value="Madhya Pradesh"></constructor-arg>
+		<constructor-arg value="India"></constructor-arg>
+	</bean>
+	
+	<!-- By Type -->
+	<bean id="byType" class="com.maneesh.spring.autowiring.ByType" autowire="byType">
+		<property name="id" value="101"></property>
+		<property name="name" value="Maneesh Dhakad"></property>
+	</bean>
+	
+	<bean id="byTypeAddress" class="com.maneesh.spring.autowiring.ByTypeAddress">
+		<constructor-arg value="byType - Bhopal"></constructor-arg>
+		<constructor-arg value="Madhya Pradesh"></constructor-arg>
+		<constructor-arg value="India"></constructor-arg>
+	</bean>
+	
+	<!-- By Constructor -->
+	<bean id="byConstructor" class="com.maneesh.spring.autowiring.ByConstructor" autowire="constructor">
+		<constructor-arg type="int" value="101"></constructor-arg>
+		<constructor-arg value="Maneesh"></constructor-arg>
+	</bean>
+	
+	<bean id="byConstructorAddress" class="com.maneesh.spring.autowiring.ByConstructorAddress">
+		<constructor-arg value="by Constructor - Bhopal"></constructor-arg>
+		<constructor-arg value="Madhya Pradesh"></constructor-arg>
+		<constructor-arg value="India"></constructor-arg>
+	</bean>
+	
+	<!-- Dependency injection for inheritance end -->
+	
+	<!-- Spring mail start -->
+	<!-- Production implementation of the JavaMailSender interface, supporting 
+		both JavaMail MimeMessages and Spring SimpleMailMessages -->
+	
+	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+        <property name="host" value="smtp.gmail.com"/>
+        <property name="port" value="465"/>
+        <property name="username" value="email"/>
+        <property name="password" value="password"/>
+        <property name="javaMailProperties">
+            <props>
+                <prop key="mail.transport.protocol">smtp</prop>
+                <prop key="mail.smtp.auth">true</prop>
+                 <prop key="mail.smtp.starttls.enable">true</prop>
+                <prop key="mail.debug">true</prop>
+            </props>
+        </property>
+    </bean> 
+	
+
+	<bean id="sendEMail" class="com.maneesh.spring.mail.SendEMail">  
+    	<property name="mailSender" ref="mailSender" /> 
+	</bean>
+	<!-- Spring mail end -->
+	
+</beans> 
